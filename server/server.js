@@ -8,7 +8,7 @@ require("dotenv").config();
 // middleware
 app.use(cors(
 	{
-		origin: ["https://quadb-node-7m77.onrender.com/"],
+		origin: ["https://quadb-client.vercel.app"],
 		methods: ["GET", "POST"],
 		credentials: true
 
